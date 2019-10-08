@@ -1,1 +1,2 @@
-﻿docker run -it --rm -p 10000:8888 -v d:/code2/img2unicode:/home/jovyan/code jupyter/datascience-notebook:1386e2046833
+﻿# run docker image
+docker run -it --rm -p 8888:8888 -e JUPYTER_ENABLE_LAB=yes -v d:/code2/img2unicode:/home/jovyan/code abhishekmishra/opencv-notebook
